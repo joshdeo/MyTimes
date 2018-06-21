@@ -1,0 +1,117 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+header img{
+  margin-left: 20px;
+}
+
+header span{
+  color: MediumAquamarine;
+  margin-top: 8px;
+  margin-left: 20px;
+}
+
+nav{
+    margin-left: 1000px;
+}
+
+nav span{
+  display: inline-block;
+}
+
+.container{
+  display: inline-flex;
+}
+
+/*COLUMN 1 CSS*/
+.large{
+  margin-left: 50px;
+  margin-top: 40px;
+  width: 600px;
+  border: 1px solid black;
+}
+
+.mainstory{
+}
+
+.mainstory span{
+  border: 1px solid black;
+}
+
+.mainstory p{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.orca{
+  border: 2px solid black;
+}
+
+.orca h2{
+  font-size: 1.5em;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.burger{
+  border: 2px solid black;
+}
+
+.burger h1{
+  font-size: 1.5em;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+/*COLUMN 1 CSS*/
+
+/*COLUMN 2 CSS*/
+.medium{
+  width: 300px;
+  margin-top: 40px;
+  margin-left: 100px;
+  border: 1px double black;
+}
+
+.medium span{
+  border: 1px solid black;
+}
+
+.medium p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.fbi h1{
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+/*COLUMN 2 CSS*/
+
+/*COLUMN 3 CSS*/
+.small{
+  margin-top: 40px;
+  width: 240px;
+  margin-left: 100px;
+  border: 1px solid black;
+}
+
+.newsbites{
+  border: 1px solid black;
+}
+
+.newsbites h3{
+  margin: 10px 0px;
+}
