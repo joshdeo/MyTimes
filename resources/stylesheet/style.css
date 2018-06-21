@@ -33,7 +33,7 @@ nav span{
 }
 
 .container{
-  display: inline-flex;
+  display: flex;
 }
 
 /*COLUMN 1 CSS*/
@@ -48,6 +48,7 @@ nav span{
 }
 
 .mainstory{
+  display: flex;
   height: 300px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   font-family: Georgia;
@@ -60,28 +61,24 @@ nav span{
   margin: 20px 0;
 }
 
-.mainstory span{
-
-}
-
-
-
 .mainstory p{
   margin-top: 12px;
   margin-bottom: 12px;
 }
 
-.orca span{
-
+.col1{
+  display: flex;
+  justify-content: space-between;
 }
 
-.orca h2{
+.orcaflex{
+  display: flex;
+  flex-direction: column;
+}
+
+.orcaflex h2{
   font-size: 1.5em;
   margin: 30px 0;
-}
-
-.orca p{
-  margin-bottom: 20px;
 }
 
 .fallpic{
@@ -92,10 +89,6 @@ nav span{
   color: white;
   height: 300px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
-}
-
-.burger{
-
 }
 
 .burger h1{
@@ -167,10 +160,62 @@ nav span{
 
 }
 
-.newsbites{
-
+.newsbites .bite{
+  display: block;
+  padding: 11px 20px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
 }
 
 .newsbites h3{
   margin: 10px 0px;
+  font-size: 16px;
+  font-weight: bold;
 }
+
+.small{
+  display: flex;
+  flex-direction: column;
+}
+
+/*FOOTER*/
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: mediumaquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+footer .title{
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: "Georgia", serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+
+
+
+
+
+
+/*FOOTER*/
